@@ -52,7 +52,7 @@
             }
             
             echo '<div class="card p-4 mt-4 border-primary mb-3 style="max-width: 18rem "><h2>Power =' . number_format($power,5);
-            echo '<br><h2>Rate: ' . number_format($currentRate,5); '</div>';
+            echo '<br><h2>Rate: ' . number_format($currentRate,2); '</div>';
             echo '</table>';
            
         }
